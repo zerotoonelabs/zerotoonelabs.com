@@ -1,0 +1,32 @@
+{
+  "title": "Zero To One Labs - one year old original mobile apps studio based in Almaty, Kazakhstan",
+  "description": "We’re one year old original mobile apps studio based in Almaty, Kazakhstan",
+  "url": "https://zerotoonelabs.com",
+  "address": "Tole bi st. 59, 050000, Almaty",
+  "email": "info@zerotoonelabs.com",
+  "contactUrl": "http://bit.ly/start-something-epic",
+  "additionalLinks": [{
+    "title": "nFactorial Incubator",
+    "url": "http://n17r.com"
+  }, {
+    "title": "The Summer Startup School",
+    "url": "http://thesummerstartupschool.com/demoday/"
+  }],
+  "socialLinks": [{
+    "title": "Instagram",
+    "url": "http://instagram.com/zerotoonelabs",
+    "icon": "instagram"
+  }, {
+    "title": "Facebook",
+    "url": "http://facebook.com/zerotoonelabs",
+    "icon": "facebook"
+  }, {
+    "title": "VK",
+    "url": "http://vk.com/zerotoonelabs",
+    "icon": "vk"
+  }, {
+    "title": "GitHub",
+    "url": "http://github.com/zerotoonelabs",
+    "icon": "github"
+  }]
+}

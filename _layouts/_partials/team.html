@@ -1,0 +1,14 @@
+<section class="section" id="team">
+  <h2 class="title is-1 has-text-centered">Team</h2>
+  <div class="container">
+    <div class="columns is-multiline is-mobile">
+      {% for member in team %}
+      <div class="column wp2 is-2-desktop is-4-tablet is-6-mobile">
+        <img src="img/team/{{ member.image }}.png">
+        <h4 class="title">{{ member.name }}</h4>
+        <p>{{ member.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

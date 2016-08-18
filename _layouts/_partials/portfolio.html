@@ -1,0 +1,20 @@
+<section class="section" id="portfolio">
+  <h2 class="title is-1 has-text-centered">Portfolio</h2>
+  <div class="container">
+    <div class="columns is-multiline is-gapless">
+      {% for app in apps %}
+      <div class="column is-one-third wp1">
+        <figure>
+          <a href="{{ app.link }}">
+      			<img src="/img/apps/{{ app.image }}.jpg" alt="{{ app.title }}">
+      			<figcaption class="has-text-centered">
+      				<h1 class="title is-1">{{ app.title }}</h1>
+      				<h5 class="subtitle is-4">{{ app.description }}</h5>
+      			</figcaption>
+          </a>
+    		</figure>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
